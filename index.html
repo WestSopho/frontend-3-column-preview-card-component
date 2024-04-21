@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | 3-column preview card component</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="min-h-screen bg-very-light-gray flex justify-center items-center">
+    <!-- Component -->
+    <div class="flex flex-col md:flex-row text-base text-very-light-gray m-2">
+      <!-- First Section -->
+      <div class="bg-bright-orange flex flex-col font-lexend-deca max-w-[320px] p-12 gap-10 rounded-t-lg md:rounded-none md:rounded-l-lg">
+        <img class="w-[60px]" src="images/icon-sedans.svg" alt="sedans-icon">
+        <h1 class="text-4xl font-bold font-big-shoulders">SEDANS</h1>
+        <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+        <!-- Button Wrapper -->
+        <div class="flex justify-start items-center">
+          <button class="w-[140px] text-bright-orange bg-very-light-gray rounded-full py-3 px-5 hover:bg-transparent hover:text-very-light-gray border-2 border-very-light-gray">Learn More</button>
+        </div>
+      </div>
+      <!-- Second Section -->
+      <div class="bg-dark-cyan flex flex-col font-lexend-deca max-w-[320px] p-12 gap-10">
+        <img class="w-[60px]" src="images/icon-suvs.svg" alt="suvs-icon">
+        <h1 class="text-4xl font-bold font-big-shoulders">SUVS</h1>
+        <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+        <!-- Button Wrapper -->
+        <div class="flex justify-start items-center">
+          <button class="w-[140px] text-dark-cyan bg-very-light-gray rounded-full py-3 px-5 hover:bg-transparent hover:text-very-light-gray border-2 border-very-light-gray">Learn More</button>
+        </div>
+      </div>
+      <!-- Third Section -->
+      <div class="bg-very-dark-cyan flex flex-col font-lexend-deca max-w-[320px] p-12 gap-10 rounded-b-lg md:rounded-none  md:rounded-r-lg">
+        <img class="w-[60px]" src="images/icon-luxury.svg" alt="luxury-icon">
+        <h1 class="text-4xl font-bold font-big-shoulders">LUXURY</h1>
+        <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+        <!-- Button Wrapper -->
+        <div class="flex justify-start items-center">
+          <button class="w-[140px] text-very-dark-cyan bg-very-light-gray rounded-full py-3 px-5 hover:bg-transparent hover:text-very-light-gray border-2 border-very-light-gray">Learn More</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
