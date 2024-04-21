@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: "Big Shoulders";
-    src: url("./fonts/BigShouldersDisplay-VariableFont_wght.ttf") format("truetype");
+    src: url("fonts/BigShouldersDisplay-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face{
     font-family: "Lexend Deca";
-    src: url("./fonts/LexendDeca-VariableFont_wght.ttf") format("truetype");
+    src: url("fonts/LexendDeca-VariableFont_wght.ttf") format("truetype");
 }
 
 *{
